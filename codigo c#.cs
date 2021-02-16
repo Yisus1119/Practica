@@ -1,4 +1,13 @@
-String bank = "FDP INVERSMENTS";
+using System;
+
+namespace PracticaParcial
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+               String bank = "FDP INVERSMENTS";
                int retdeafult = 10000;
                int billetes_de_100 = 50, billetes_de_1000 = 18, billetes_de_200 = 23, billetes_de_500 = 19;
                int cantidad_de_pesos, efectivo;
@@ -83,3 +92,11 @@ String bank = "FDP INVERSMENTS";
                    }
 
                }
+            
+
+         
+
+
+        }
+    }
+}
