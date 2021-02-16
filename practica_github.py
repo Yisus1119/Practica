@@ -28,7 +28,7 @@ def desglose_FDP_INVERSMENTS():
 def desglose_Otros():
   global billetes_de_1000,billetes_de_500,billetes_de_200,billetes_de_100
   print("\n-----------------------------------------------\n")
-  print("\nHas seleccionado un banco Ageno (El limite de retiro 10,000)\n")
+  print("\nHas seleccionado un banco Ajeno (El limite de retiro 10,000)\n")
   monto = int(input("Ingrese el monto a retirar: "))
   if monto < Bancos[1][1] and monto % billetes[3] ==0 or monto % billetes[0] == 0:
     
